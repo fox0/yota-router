@@ -1,0 +1,26 @@
+{
+  "applications": {
+    "gecko": {
+      "id": "yota@example.com"
+    }
+  },
+  "background": {
+      "scripts": ["yota.js"]
+  },
+  "icons": {
+      "48": "icon.png"
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Заряд батареи у Yota роутера"
+  },
+  "permissions": [
+    "http://10.0.0.1/*",
+    "webRequest",
+    "alarms"
+  ],
+  "description": "Заряд батареи у Yota роутера",
+  "manifest_version": 2,
+  "name": "yota router",
+  "version": "0.1.2"
+}
